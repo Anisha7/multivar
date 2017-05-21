@@ -1,4 +1,4 @@
-body{
+body{
   color: #faffaf;
 }
 
@@ -35,4 +35,38 @@ color: #95989A;
 font-family: Prestige Elite Std;
 font-size: 20px;
 
+}
+
+.description {
+  font-family: georgia;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+  width: 95%;
+  line-height: 1.8;
+}
+
+.title {
+  text-align: center;
+  font-family: Adobe Gothic Std;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.name {
+  width: 100%;
+  text-align: center;
+  font-size: 20;
+  font-family: georgia;
+  letter-spacing: 1pt;
+}
+
+.bio {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
 }
