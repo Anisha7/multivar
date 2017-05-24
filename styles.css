@@ -2,10 +2,7 @@
   color: #faffaf;
 }
 
-@@font-face {
-  font-family: Segoe Script;
-  src: url(SEGOESCB.TTF);
-}
+
 h1 {
   text-align: center;
   color: #2A2929;
