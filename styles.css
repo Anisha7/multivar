@@ -77,10 +77,14 @@ font-size: 20px;
   margin-bottom: 30px;
   word-break: keep-all;
   line-height: 1.8;
-  letter-spacing: 0.2;
+  letter-spacing: 0.2;
 }
 
 .team{
   width: 600px;
   margin: 0 auto;
+}
+
+iframe{
+  margin:0 auto;
 }
