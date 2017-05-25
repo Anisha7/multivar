@@ -11,10 +11,11 @@
 h1 {
   text-align: center;
   color: #2A2929;
-  font-family: Brush Script Std;
+  font-family: fantasy;
   padding-top: 20px;
   padding-bottom: 0px;
-  font-size: 55px;
+  font-size: 65px;
+  letter-spacing: 4;
 }
 
 ul {
