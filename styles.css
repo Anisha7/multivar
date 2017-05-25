@@ -75,4 +75,12 @@ font-size: 20px;
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
+  word-break: keep-all;
+  line-height: 1.8;
+  letter-spacing: 0.2;
+}
+
+.team{
+  width: 600px;
+  margin: 0 auto;
 }
