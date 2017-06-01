@@ -4,6 +4,11 @@ import time
 import re
 import csv
 
+from flask import Flask
+app= Flask(__name__)
+
+@app.route('/green')
+
 
 BASEURL = 'http://oceandatacenter.ucsc.edu/SCOOP/index.html'
 
