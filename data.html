@@ -48,7 +48,21 @@ ul{
 
       <p class="title"> How safe is the water at your beach? </p>
 
-<a href="#" class="myButton">Find Out</a>
+
+      <a href="#" class="myButton" id="myButton" value="Safe" onclick="myFunction()">
+    Find Out
+  </a>
+  <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myButton").value;
+  document.getElementById("demo").innerHTML = x;
+}
+    </script>
+
+
+
   </div>
 
   <div class="dataDescription">
