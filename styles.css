@@ -224,14 +224,14 @@ font-size: 20px;
    width: 100%; /* for IE 6 */
 }
 
-h2 {
+.headText {
    position: absolute;
    top: 600px;
    left: 0;
    width: 100%;
 }
 
-h2 span {
+.headText span {
    color: white;
    font: bold 24px/45px Helvetica, Sans-Serif;
    letter-spacing: -1px;
@@ -240,6 +240,29 @@ h2 span {
    padding: 10px;
 }
 
-h2 span.spacer {
+.headText span.spacer {
    padding:0 8px;
+}
+
+.banner {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+.bannerText {
+   position: absolute;
+   top: 80px;
+   left: 0;
+   width: 100%;
+   text-align: center
+}
+
+.bannerText span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: 1px;
+   padding-left: 10px;
+   padding-right: 20px;
+   background: light blue;
+   padding: 10px;
 }
