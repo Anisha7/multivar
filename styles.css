@@ -121,15 +121,16 @@ font-size: 20px;
 
 .mapDetails, .mapContainer{
   display: inline;
-
 }
+
 .parentContainer{
   padding-top: 20pt;
 }
 
 .mapDetails{
-  float:right;
+  float:left;
   margin:0;
+  width: 300px;
   text-align: center;
 }
 
@@ -140,10 +141,11 @@ font-size: 20px;
 
 .dataDescription{
   padding: 20pt;
-  float:none;
 }
+
 .mapContainer{
-  width:50%;
+  width: 300px;
+
 }
 
 .myButton {
