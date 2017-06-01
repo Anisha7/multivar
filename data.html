@@ -22,6 +22,15 @@ ul{
 }
 
 </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#togglex").toggle();
+    });
+});
+</script>
 </head>
 <body>
 
@@ -48,9 +57,12 @@ ul{
 
       <p class="title"> How safe is the water at your beach? </p>
 
-      <div id='content'> Safe </div>
-      <input href="#" class="myButton" id="myButton" value="Find Out">
 
+
+
+      <button class="myButton">Find Out</button>
+
+  <p id="togglex" class="answer"> Safe</p>
 
   </div>
 
@@ -68,18 +80,7 @@ ul{
 </div>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
-<script>
-      jQuery(document).ready(function(){
-        jQuery('#myButton').live('click', function(event) {
-          jQuery('#content').toggle('show');
-        });
-      });
-</script>
 
 </body>
 
