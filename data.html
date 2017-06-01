@@ -48,16 +48,8 @@ ul{
 
       <p class="title"> How safe is the water at your beach? </p>
 
-
-      <a href="#" class="myButton" id="myButton" value="Safe" onclick="myFunction()">Find Out</a>
-  <p id="demo"></p>
-  <script>
-        function myFunction() {
-          var x = document.getElementById("myButton").value;
-          document.getElementById("demo").innerHTML = x;
-        }
-    </script>
-
+      <div id='content'> Safe </div>
+      <input href="#" class="myButton" id="myButton" value="Find Out">
 
 
   </div>
@@ -68,12 +60,27 @@ ul{
         Patterns in our data and regions with high or low concentrations of cfu allow us to set the conditions that result in certain amounts of bacteria.
         Values that exclude one or two colors completely shows the unlikelihood that a dot in that region will be missing color(s).
         For example, if there are no red dots over sixty degrees, it is less likely that any new spot in that range will be red.
-        Clusters of red and yellow indicate likely conditions for future high contamination.
+        Clusters of red and yellow indicate likely conditions for future high contamination.
         Regions with high concentrations of green spots in our data indicate less likely conditions for future contamination levels.
 
     </p>
   </div>
 </div>
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script>
+      jQuery(document).ready(function(){
+        jQuery('#myButton').live('click', function(event) {
+          jQuery('#content').toggle('show');
+        });
+      });
+</script>
+
 </body>
+
 </html>
