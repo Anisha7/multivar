@@ -29,10 +29,4 @@ ax.set_zlabel('Rain fall')
 ax.scatter(xTemp, yTurb, zRain, c=color)
 
 
-plt.show()
-
-from flask import Flask
-app= Flask(__name__)
-
-@app.route('/graph')
-app.run(port=8000, host='127.0.0.1')
+plt.show()

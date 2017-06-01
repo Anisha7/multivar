@@ -141,6 +141,7 @@ font-size: 20px;
 .dataDescription{
   padding: 20pt;
 }
+
 .myButton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
@@ -201,3 +202,19 @@ font-size: 20px;
 .colorKey .greenKey { background-color: green; }
 .colorKey .yellowKey { background-color: yellow; }
 .colorKey .redKey { background-color: red; }
+
+
+.front, .side {
+  display: inline-block;
+}
+.side{
+  float: right;
+}
+
+.down, .angle{
+  display:inline-block;
+}
+
+.down{
+  float: right;
+}
